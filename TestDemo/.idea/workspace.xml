@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="692753ae-2c09-45da-80c8-bcef8fc4137b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="TestDemo" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../apache-maven-3.6.1" />
+        <option name="printErrorStackTraces" value="true" />
+        <option name="usePluginRegistry" value="true" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../apache-maven-3.6.1/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cCNz3S5ytzKEmgDxopP6JNMrnZ" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../appium_study/src/test/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.web.page.action" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="study.test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../appium_study/src/test/java" />
+      <recent name="$PROJECT_DIR$/../interface/src/main/resources" />
+      <recent name="$PROJECT_DIR$/../interface/src/main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../interface/src/main/resources/cn/test/api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MarketPageTest">
+    <configuration name="MarketPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appium_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sutdy.appium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.sutdy.appium.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.sutdy.appium.test.MarketPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketPageTest.deleteStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appium_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sutdy.appium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.sutdy.appium.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.sutdy.appium.test.MarketPageTest" />
+      <option name="METHOD_NAME" value="deleteStockTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketPageTest.toMarketPageTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appium_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sutdy.appium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.sutdy.appium.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.sutdy.appium.test.MarketPageTest" />
+      <option name="METHOD_NAME" value="toMarketPageTest(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketPageTest.toMarketPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appium_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sutdy.appium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.sutdy.appium.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.sutdy.appium.test.MarketPageTest" />
+      <option name="METHOD_NAME" value="toMarketPageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchPageTest.priceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="appium_study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.sutdy.appium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.sutdy.appium.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.sutdy.appium.test.SearchPageTest" />
+      <option name="METHOD_NAME" value="priceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MarketPageTest" />
+        <item itemvalue="JUnit.MarketPageTest.deleteStockTest" />
+        <item itemvalue="JUnit.MarketPageTest.toMarketPageTest (1)" />
+        <item itemvalue="JUnit.MarketPageTest.toMarketPageTest" />
+        <item itemvalue="JUnit.SearchPageTest.priceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="692753ae-2c09-45da-80c8-bcef8fc4137b" name="Default Changelist" comment="" />
+      <created>1590028873446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590028873446</updated>
+      <workItem from="1590028876781" duration="12498000" />
+      <workItem from="1590059921533" duration="7904000" />
+      <workItem from="1590204186178" duration="5760000" />
+      <workItem from="1590389582354" duration="12555000" />
+      <workItem from="1590482523149" duration="1120000" />
+      <workItem from="1590550093755" duration="498000" />
+      <workItem from="1590550623360" duration="4041000" />
+      <workItem from="1590668932637" duration="11702000" />
+      <workItem from="1590811065680" duration="200000" />
+      <workItem from="1590990998005" duration="3752000" />
+      <workItem from="1591028166029" duration="1673000" />
+      <workItem from="1591070833925" duration="1952000" />
+      <workItem from="1591090106780" duration="10080000" />
+      <workItem from="1591239223606" duration="6624000" />
+      <workItem from="1591259005787" duration="3511000" />
+      <workItem from="1591325958941" duration="4505000" />
+      <workItem from="1591584877258" duration="2259000" />
+      <workItem from="1591593457602" duration="6383000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
