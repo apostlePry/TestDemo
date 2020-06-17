@@ -1,6 +1,6 @@
-package cn.study.web.page.we_work;
+package cn.web.page.we_work;
 
-import cn.study.web.page.BasePage;
+import cn.web.page.BasePage;
 import org.openqa.selenium.By;
 
 /**

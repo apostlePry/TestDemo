@@ -1,9 +1,7 @@
-package cn.study.page.xueqiu.study.demo;
+package cn.study.demo;
 
-import org.checkerframework.checker.nullness.compatqual.NullableDecl;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

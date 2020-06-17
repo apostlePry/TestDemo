@@ -1,4 +1,4 @@
-package cn.study.page.xueqiu.study.page.wework;
+package cn.study.page.wework;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

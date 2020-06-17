@@ -1,4 +1,4 @@
-package cn.study.page.xueqiu.study.selenium;
+package cn.study.selenium;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;

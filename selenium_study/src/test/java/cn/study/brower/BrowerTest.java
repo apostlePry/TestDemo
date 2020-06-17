@@ -1,6 +1,6 @@
-package cn.study.page.xueqiu.study.brower;
+package cn.study.brower;
 
-import cn.study.page.xueqiu.study.BaseTest;
+import cn.study.BaseTest;
 import org.junit.jupiter.api.Test;
 
 public class BrowerTest extends BaseTest {

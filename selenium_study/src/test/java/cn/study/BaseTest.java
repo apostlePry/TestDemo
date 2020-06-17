@@ -1,4 +1,4 @@
-package cn.study.page.xueqiu.study;
+package cn.study;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
