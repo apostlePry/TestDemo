@@ -1,6 +1,6 @@
-package cn.web.page.we_work;
+package cn.study.page.we_work;
 
-import cn.web.page.BasePage;
+import cn.study.page.BasePage;
 import org.openqa.selenium.By;
 
 public class HomePage {

@@ -1,7 +1,7 @@
 package cn.web.test;
 
-import cn.web.page.we_work.ContactPage;
-import cn.web.page.we_work.HomePage;
+import cn.study.page.we_work.ContactPage;
+import cn.study.page.we_work.HomePage;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
