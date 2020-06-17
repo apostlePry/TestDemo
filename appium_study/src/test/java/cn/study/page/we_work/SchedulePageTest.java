@@ -1,4 +1,4 @@
-package cn.cn.study.page.we_work;
+package cn.study.page.we_work;
 
 import cn.study.page.wework.EditPage;
 import cn.study.page.wework.HomePage;

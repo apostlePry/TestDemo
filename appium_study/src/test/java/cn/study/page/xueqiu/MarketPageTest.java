@@ -1,4 +1,4 @@
-package cn.study.page.xueqiu.sutdy.appium.test;
+package cn.study.page.xueqiu;
 
 import cn.study.page.xueqiu.EditStockPage;
 import cn.study.page.xueqiu.HomePage;

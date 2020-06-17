@@ -1,4 +1,4 @@
-package cn.study.page.xueqiu.test.appium;
+package test.appium;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;

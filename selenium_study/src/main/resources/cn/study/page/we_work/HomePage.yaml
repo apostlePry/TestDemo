@@ -1,0 +1,6 @@
+name: name
+description: description
+steps:
+  - click: {id: click}
+  - search: {id: xxx}
+    param: 2123

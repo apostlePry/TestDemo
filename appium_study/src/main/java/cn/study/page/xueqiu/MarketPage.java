@@ -1,5 +1,6 @@
-package cn.xueqiu.study.page;
+package cn.study.page.xueqiu;
 
+import cn.study.page.BasePage;
 import org.openqa.selenium.By;
 
 import java.util.ArrayList;

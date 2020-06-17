@@ -1,5 +1,8 @@
 package cn.study.page;
 
+import cn.study.pojo.TestCase;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 import org.checkerframework.checker.nullness.compatqual.NullableDecl;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
@@ -11,6 +14,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -18,14 +22,9 @@ import java.util.StringTokenizer;
 import java.util.concurrent.TimeUnit;
 
 public class BasePage {
+    private TestCase cases;
     protected static WebDriver driver;
     protected static WebDriverWait wait;
-
-    static {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        wait = new WebDriverWait(driver, 5);
-    }
 
     public Boolean elementIsExits(By locator){
         try {
@@ -82,11 +81,25 @@ public class BasePage {
         elementByWait.click();
     }
 
+    public TestCase load(){
+        String path = "/" + this.getClass().getCanonicalName().replace(".", "/") + ".yaml";
+        ObjectMapper mapper = new ObjectMapper(new YAMLFactory());
+        try {
+            cases = mapper.readValue(BasePage.class.getResourceAsStream(path), TestCase.class);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return cases;
+    }
+
     public void quit(){
         driver.quit();
     }
 
     public void start() {
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        wait = new WebDriverWait(driver, 5);
         driver.get("https://work.weixin.qq.com/");
         WebElement loginButton = driver.findElement(By.cssSelector(".index_top_operation_loginBtn"));
         loginButton.click();

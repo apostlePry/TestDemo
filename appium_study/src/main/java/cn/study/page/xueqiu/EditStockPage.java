@@ -1,13 +1,12 @@
-package cn.xueqiu.study.page;
+package cn.study.page.xueqiu;
 
+import cn.study.page.BasePage;
 import org.openqa.selenium.By;
 
 public class EditStockPage extends BasePage {
 
     public EditStockPage selectCheck(){
-        this.getElements(By.id("check")).forEach(mobileElement ->
-            mobileElement.click()
-        );
+        this.getElements(By.id("check")).forEach(mobileElement -> mobileElement.click());
         return this;
     }
 

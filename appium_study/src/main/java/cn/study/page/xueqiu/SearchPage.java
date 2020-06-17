@@ -1,5 +1,6 @@
-package cn.xueqiu.study.page;
+package cn.study.page.xueqiu;
 
+import cn.study.page.BasePage;
 import io.appium.java_client.MobileElement;
 import org.openqa.selenium.By;
 
@@ -56,8 +57,8 @@ public class SearchPage extends BasePage {
      * @creed: Talk is cheap,show me the code
      * @date 2020/6/8 4:22 下午
      */
-    public Double getPrice(){
-        this.click(By.xpath("//*[@text = 'BABA']"));
+    public Double getPrice(String code){
+        this.click(By.xpath("//*[@text = '" + code + "']"));
         return Double.valueOf(this.getElement(By.id("current_price")).getText());
     }
 

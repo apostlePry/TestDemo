@@ -1,0 +1,25 @@
+testcases:
+  login:
+    run: yes
+    caseName: login
+    type: post_json
+    url: https://core-api.sim.huohua.cn/token
+    param:
+      phone: ${phone}
+      authCode: ${authCode}
+  logout:
+    run: yes
+    caseName: logout
+    type: delete
+    url: http://m.qa.huohua.cn/api/session
+    header:
+      user-token: ${user-token}
+  first:
+    run: yes
+    caseName: first
+    type: get
+    url: https://core-api.sim.huohua.cn/mine/student_profile/first
+    param:
+      userId: ${userId}
+    header:
+      user-token: ${user-token}
