@@ -1,4 +1,4 @@
-package cn.study.page;
+package cn.study.page.xueqiu;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
@@ -46,6 +46,17 @@ public class BasePage {
 
     protected List<MobileElement> getElements(By by){
         return driver.findElements(by);
+    }
+
+    public void click(By locator){
+        MobileElement element = this.getElement(locator);
+        element.click();
+    }
+
+    public void input(By locator, String value){
+        MobileElement element = this.getElement(locator);
+        element.clear();
+        element.sendKeys(value);
     }
 
     public void quit(){
