@@ -1,4 +1,4 @@
-package cn.study.page.xueqiu.web.page;
+package cn.study.web.page;
 
 import org.checkerframework.checker.nullness.compatqual.NullableDecl;
 import org.openqa.selenium.By;

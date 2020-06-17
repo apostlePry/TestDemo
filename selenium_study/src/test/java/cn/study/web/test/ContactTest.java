@@ -1,7 +1,7 @@
-package cn.study.page.xueqiu.web.test;
+package cn.study.web.test;
 
-import cn.study.page.xueqiu.web.page.ContactPage;
-import cn.study.page.xueqiu.web.page.HomePage;
+import cn.study.web.page.we_work.ContactPage;
+import cn.study.web.page.we_work.HomePage;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
